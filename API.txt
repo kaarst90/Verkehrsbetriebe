@@ -1,0 +1,23 @@
+Um die benötigten API-Schlüssel zu erhalten, folgen Sie diesen Anleitungen:
+
+1. **Google Transit API Key**:
+   - Besuchen Sie die [Google Cloud Console](https://console.cloud.google.com/).
+   - Melden Sie sich mit Ihrem Google-Konto an.
+   - Erstellen Sie ein neues Projekt oder wählen Sie ein bestehendes Projekt aus.
+   - Navigieren Sie zu "APIs & Services" > "Bibliothek".
+   - Suchen Sie nach "Google Maps API" und aktivieren Sie sie.
+   - Gehen Sie zu "APIs & Services" > "Anmeldedaten".
+   - Klicken Sie auf "Anmeldedaten erstellen" und wählen Sie "API-Schlüssel".
+   - Kopieren Sie den generierten API-Schlüssel und verwenden Sie ihn als `YOUR_GOOGLE_TRANSIT_API_KEY`.
+
+2. **Agency ID**:
+   - Die Agency ID hängt von der spezifischen Transit-Agentur ab, die Sie abfragen möchten. Diese Information ist oft in der Dokumentation der jeweiligen Transit-API verfügbar oder kann durch direkte Anfrage bei der Agentur erhalten werden.
+
+3. **Deutsche Bahn API Key**:
+   - Besuchen Sie das [Deutsche Bahn Developer Portal](https://developer.deutschebahn.com/).
+   - Registrieren Sie sich für ein Konto und melden Sie sich an.
+   - Erstellen Sie ein neues Projekt und abonnieren Sie die gewünschten APIs.
+   - Gehen Sie zu "Anmeldedaten" und erstellen Sie einen neuen API-Schlüssel.
+   - Kopieren Sie den generierten API-Schlüssel und verwenden Sie ihn als `YOUR_DB_API_KEY`.
+
+Stellen Sie sicher, dass Sie die API-Schlüssel sicher aufbewahren und nicht öffentlich teilen. Wenn Sie diese Schlüssel in Ihrem Code verwenden, sollten Sie Umgebungsvariablen oder sichere Speichermethoden verwenden, um sie vor unbefugtem Zugriff zu schützen.
